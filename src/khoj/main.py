@@ -168,7 +168,7 @@ def poll_task_scheduler():
 
 
 def run_gui():
-    sys.argv += ["--gui"]
+    sys.argv += ["--gui", "-vv"]
     run()
 
 
